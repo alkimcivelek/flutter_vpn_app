@@ -1,0 +1,58 @@
+name: flutter_vpn_app
+description: "Flutter VPN App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  get: ^4.7.2
+  animate_do: ^4.2.0
+  shimmer: ^3.0.0
+  lottie: ^3.3.1
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  equatable: ^2.0.7
+  dio: ^5.8.0+1
+  json_annotation: ^4.9.0
+  freezed_annotation: ^3.1.0
+  cupertino_icons: ^1.0.8
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.0
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  mockito: ^5.5.0
+  build_runner: ^2.6.0
+  json_serializable: ^6.10.0
+  freezed: ^3.2.0
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/flags/
+    - assets/images/vectors/
+    - assets/icons/
+    - assets/animations/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-Regular.ttf
+        - asset: assets/fonts/Gilroy-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Gilroy-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Gilroy-Bold.ttf
+          weight: 900
