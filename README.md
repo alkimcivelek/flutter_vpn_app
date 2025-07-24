@@ -10,7 +10,7 @@ cd flutter_vpn_app
 2. Dependencies'leri Yükleyin: 
 flutter pub get
 
-3. Platform Kurulumu
+3. Platform Kurulumu:
 Android
 Android için ek kurulum gerekmez
 
@@ -19,20 +19,19 @@ cd ios
 pod install
 cd ..
 
-4. Projeyi Çalıştırın
+4. Projeyi Çalıştırın:
 flutter run
 
-5. Test Komutları
+5. Test Komutları:
 Unit testleri çalıştır
 flutter test
 
 Mimari Kararlar:
 Proje MVVM prensiplerini takip eder:
 
-State Management Strategy
+State Management Strategy:
 Hibrit Yaklaşım: GetX + Riverpod
 GetX: Ana business logic ve navigation
-
 Riverpod: UI-specific state management
 
 Design Patterns:
