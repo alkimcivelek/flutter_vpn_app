@@ -3,11 +3,11 @@ Tema desteği içerir.
 
 Kurulum ve Kullanım:
 
-1. Repository'yi Klonlayın
-git clone https://github.com/alkimcivelek/flutter_vpn_app.git
+1. Repository'yi Klonlayın:
+git clone https://github.com/alkimcivelek/flutter_vpn_app.git,
 cd flutter_vpn_app
 
-2. Dependencies'leri Yükleyin
+2. Dependencies'leri Yükleyin: 
 flutter pub get
 
 3. Platform Kurulumu
